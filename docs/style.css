@@ -12,10 +12,6 @@ header {
   position: fixed;
   width: 100%;
   z-index: 10;
-
-  background-image: url("./photos/IA_logo.JPG");
-  background-repeat: no-repeat;
-  background-position: bottom right;
 }
 
 ul {
@@ -45,6 +41,7 @@ h1, h2 {
 }
 
 .title{ 
+  padding: 10%;
   background-image: url("./photos/IA_logo.JPG");
   background-repeat: no-repeat;
   background-size: cover;
