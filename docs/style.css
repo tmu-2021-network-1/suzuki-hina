@@ -40,18 +40,13 @@ h1, h2 {
   color: rgb(255, 255, 255);
 }
 
-.title{
-  float:right;
-  width:50%;
+.wrap{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
-.title{
-  float:left;
-  width:50%;
-}
-.wrap:after{
-display:block;
-clear:both;
-content:"";
+.item+.item{
+  margin-left: 1.0em;
 }
 
 
