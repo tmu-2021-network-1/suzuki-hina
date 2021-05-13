@@ -33,15 +33,15 @@ li:hover {
   color: #DBE9EE;
 }
 
+img.ialogo {
+  width: 10%;
+  height: 10%;
+}
+
 
 h1, h2 {
   font-weight: 400;
   color: rgb(255, 255, 255);
-}
-
-img.ialogo {
-  width: 10%;
-  height: 10%;
 }
 
 .welcome{
