@@ -12,6 +12,26 @@ header {
   z-index: 10;
 }
 
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+li {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 80px;  
+}
+
+li:hover {
+  color: #DBE9EE;
+}
+
 h1, h2 {
   font-weight: 400;
   color: rgb(255, 255, 255);
