@@ -11,6 +11,11 @@ header {
   position: fixed;
   width: 100%;
   z-index: 10;
+
+  background-image: "./photos/IA_logo.JPG";
+  background-position: right;
+  width: 50%;
+  height: 50%;
 }
 
 ul {
@@ -33,11 +38,6 @@ li:hover {
   color: #DBE9EE;
 }
 
-img.ialogo {
-  width: 50%;
-  height: 50%;
-}
-
 
 h1, h2 {
   font-weight: 400;
@@ -46,11 +46,12 @@ h1, h2 {
 
 
 .welcome{
+  margin-top: 20%;
   display: flex;
   justify-content: space-between;
 }
 .welcome > p {
-  width: 49%;
+  width: 29%;
 }
 
 
