@@ -13,7 +13,7 @@ header {
   width: 100%;
   z-index: 10;
 
-  background-image: url(./photos/IA_logo.JPG);
+  background-image: url("./photos/IA_logo.JPG");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -44,10 +44,12 @@ h1, h2 {
   color: rgb(255, 255, 255);
 }
 
-.title{
-  float:right;
-  width:50%;
-  background-image: url(./photos/IA_logo.JPG);
+.title{ 
+  background-image: url("./photos/IA_logo.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  background-color: rgb(0, 0, 0);
 }
 
 
