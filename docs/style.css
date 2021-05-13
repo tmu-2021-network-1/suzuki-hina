@@ -44,26 +44,18 @@ h1, h2 {
   color: rgb(255, 255, 255);
 }
 
-
-.welcome{
-  padding: 10%;
-  background: rgb(0, 0, 0);
+.title{
+  float:right;
+  width:50%;
 }
-.welcome .logo{
-  margin-right: 6px;
-	vertical-align: middle;
+.title{
+  float:left;
+  width:50%;
 }
-.welcome .site-title{
-	display: inline-block;
-	vertical-align: middle;
-}
-.welcome h1{
-	margin: 0;
-	font-size:30px;
-}
-.welcome p{
-	margin: 0;
-	line-height: 1;
+.wrap:after{
+display:block;
+clear:both;
+content:"";
 }
 
 
