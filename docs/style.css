@@ -31,11 +31,11 @@ li {
   font-weight: 300;
   text-transform: uppercase;
   display: inline-block;
-  width: 80px;  
+  width: 100px;  
 }
 
 li:hover {
-  color: #DBE9EE;
+  color: #d2dbdf;
 }
 
 
@@ -47,16 +47,9 @@ h1, h2 {
 .title{
   float:right;
   width:50%;
+  background-image: url(./photos/IA_logo.JPG);
 }
-.title{
-  float:left;
-  width:50%;
-}
-.wrap:after{
-display:block;
-clear:both;
-content:"";
-}
+
 
 
 #studios > div {
