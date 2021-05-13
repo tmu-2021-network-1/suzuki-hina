@@ -31,7 +31,7 @@ li {
 }
 
 li:hover {
-  color: #d2dbdf;
+  color: #DBE9EE;
 }
 
 
@@ -40,15 +40,19 @@ h1, h2 {
   color: rgb(255, 255, 255);
 }
 
-.title{ 
-  padding: 10%;
-  background-image: url("./photos/IA_logo.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom center;
-  background-color: rgb(0, 0, 0);
+.title{
+  float:right;
+  width:50%;
 }
-
+.title{
+  float:left;
+  width:50%;
+}
+.wrap:after{
+display:block;
+clear:both;
+content:"";
+}
 
 
 #studios > div {
