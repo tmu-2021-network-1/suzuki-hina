@@ -51,7 +51,7 @@ h1, h2 {
 }
 .welcome p{
   display: inline-block;
-  vertical-align: left;
+  vertical-align: top;
 }
 
 
