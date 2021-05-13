@@ -48,7 +48,11 @@ h1, h2 {
   justify-content: center;
 }
 .welcome > p {
-  width: 30%;
+  width: 49%;
+}
+img.ialogo {
+  width: 150%;
+  height: 150%;
 }
 
 
