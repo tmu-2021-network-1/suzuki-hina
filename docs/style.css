@@ -11,10 +11,6 @@ header {
   position: fixed;
   width: 100%;
   z-index: 10;
-
-  background-image: "./photos/IA_logo.JPG";
-  background-repeat: no-repeat;  
-  background-position: right;
 }
 
 ul {
