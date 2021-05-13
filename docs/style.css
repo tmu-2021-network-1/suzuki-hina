@@ -13,8 +13,8 @@ header {
   width: 100%;
   z-index: 10;
 
-  background-image: "./photos/IA_logo.JPG"; /* ロゴURL */
-  background-repeat: no-repeat;                /* 1回だけ表示 */
+  background-image: url(./photos/IA_logo.JPG);
+  background-repeat: no-repeat;
   background-position: bottom right;
 }
 
@@ -49,9 +49,17 @@ h1, h2 {
   padding: 10%;
   background: rgb(255, 0, 0);
 }
-.welcome p{
-  display: inline-block;
-  vertical-align: top;
+.welcome .logo{
+  margin-right:6px;
+	vertical-align: middle;
+}
+.welcome .site-title{
+	display: inline-block;
+	vertical-align: middle;
+}
+.welcome h1{
+	margin: 0;
+	font-size:22px;
 }
 
 
