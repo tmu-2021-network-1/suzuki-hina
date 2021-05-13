@@ -47,10 +47,10 @@ h1, h2 {
 
 .welcome{
   padding: 10%;
-  background: rgb(255, 0, 0);
+  background: rgb(0, 0, 0);
 }
 .welcome .logo{
-  margin-right:6px;
+  margin-right: 6px;
 	vertical-align: middle;
 }
 .welcome .site-title{
