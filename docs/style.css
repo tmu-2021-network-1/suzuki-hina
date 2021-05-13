@@ -49,6 +49,10 @@ h1, h2 {
   padding: 10%;
   background: rgb(255, 0, 0);
 }
+.welcome p{
+  display: inline-block;
+  vertical-align: top;
+}
 
 
 #studios > div {
