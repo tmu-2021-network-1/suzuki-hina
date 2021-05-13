@@ -34,8 +34,8 @@ li:hover {
 }
 
 img.ialogo {
-  width: 10%;
-  height: 10%;
+  width: 50%;
+  height: 50%;
 }
 
 
@@ -44,6 +44,7 @@ h1, h2 {
   color: rgb(255, 255, 255);
 }
 
+
 .welcome{
   display: flex;
   justify-content: space-between;
@@ -51,6 +52,7 @@ h1, h2 {
 .welcome > p {
   width: 49%;
 }
+
 
 #studios > div {
   margin: 1em 0;
