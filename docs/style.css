@@ -47,7 +47,7 @@ h1, h2 {
 .welcome{
   margin: 10%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .welcome > p {
   width: 30%;
