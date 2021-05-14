@@ -5,28 +5,48 @@ const endpoint = `${uri}?id=${id}&sheet=${sheet}`;
 
 const renderJson = (json) => {
   const studios = json.records;
-  
   studios.pop();
   
   studios.forEach(studio => {
    const studioDiv = document.createElement('div');
+   studioDiv.className ='studio-div';
+
+   const  studioImage = document.createElement('img');
+   studioImage.id =studio['name-ja'];
+   studioImage.className = 'studio-image';
+   studioImage.src = studio['photo1'];
+   studioImage.alt = 'スタジオの画像です。';
+
+   const studioDivTwo = document.createElement('div');
+   studioDivTwo.className ='studio-div2';
+
+   const studioDivThree = document.createElement('div');
+   studioDivThree.className ='studio-div3';
 
    const studioTitle = document.createElement("span");
    studioTitle.className = 'studio-title';
    studioTitle.textContent = studio['name-ja'];
 
-   const studioTitleEn = document.createElement("span");
-   studioTitleEn.className = 'studio-title-en';
-   studioTitleEn.textContent = studio['name-en'];
+   const kindOfCore = document.createElement("span");
+   kindOfCore.className = 'kind-of-core';
+   kindOfCore.textContent = `#${studio['core-ja']}`;
 
-   const studioPhotos = document.createElement("span");
-   studioPhotos.className = 'studio-photos';
-   studioPhotos.textContent = studio['photo1'];
+   const detail = document.createElement("a");
+   detail.className = 'read-more'
+   detail.textContent = 'Read more';
+   
 
-   studioDiv.appendChild(studioTitle);
-   studioDiv.appendChild(studioTitleEn);
-   studioDiv.appendChild(studioPhotos);
+   studioDivTwo.appendChild(studioTitle);
+   studioDivTwo.appendChild(kindOfCore);
+
+   studioDivThree.appendChild(studioDivTwo);
+   studioDivThree.appendChild(detail);
+
+   studioDiv.appendChild(studioImage);
+   studioDiv.appendChild(studioDivThree);
+  
    document.getElementById('studios').appendChild(studioDiv);
+
  });
   document.getElementById('result').textContent = JSON.stringify(json, null, 2);
 }
