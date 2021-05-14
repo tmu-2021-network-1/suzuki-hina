@@ -41,6 +41,7 @@ h1, h2 {
 }
 
 .wrap{
+  padding: 10%;
   background-color: rgb(255, 0, 255);
   height: 400px;
   display: flex;
@@ -50,7 +51,6 @@ h1, h2 {
 .item {
   width: 200px;
   height: 200px;
-  margin-left: 1.0em;
 }
 
 
