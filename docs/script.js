@@ -33,7 +33,7 @@ const renderJson = (json) => {
 
    const detail = document.createElement("a");
    detail.className = 'read-more'
-   detail.textContent = 'Read more';
+   detail.textContent = 'more';
    
 
    studioDivTwo.appendChild(studioTitle);
