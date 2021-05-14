@@ -51,6 +51,7 @@ h1, h2 {
 }
 .title_item1 {
   align-self: auto;
+  flex-basis: 600px;
 }
 .title_item2 {
   align-self: auto;
