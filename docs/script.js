@@ -11,35 +11,65 @@ const renderJson = (json) => {
    const studioDiv = document.createElement('div');
    studioDiv.className ='studio-div';
 
+   const ContentsDiv = document.createElement('div');
+   ContentsDiv.className ='contents';
+
+
+   const ContentsItem1Div = document.createElement('div');
+   ContentsItem1Div.className ='contents_item1';
+
    const  studioImage = document.createElement('img');
-   studioImage.id =studio['name-ja'];
+   /*studioImage.id =studio['name-ja'];*/
    studioImage.className = 'studio-image';
    studioImage.src = studio['photo1'];
    studioImage.alt = 'スタジオの画像です。';
 
-   const studioDivTwo = document.createElement('div');
-   studioDivTwo.className ='studio-div2';
 
-   const studioDivThree = document.createElement('div');
-   studioDivThree.className ='studio-div3';
 
-   const studioTitle = document.createElement("span");
-   studioTitle.className = 'studio-title';
-   studioTitle.textContent = studio['name-ja'];
+   const ContentsItem2Div = document.createElement('div');
+   ContentsItem2Div.className ='contents_item2';
 
-   const kindOfCore = document.createElement("span");
-   kindOfCore.className = 'kind-of-core';
-   kindOfCore.textContent = studio['core-ja'];
+   const StudioTitleJa = document.createElement("span");
+   StudioTitleJa.className = 'studio-title-ja';
+   StudioTitleJa.textContent = studio['name-ja'];
+
+   const StudioTitleEn = document.createElement("span");
+   StudioTitleEn.className = 'studio-title-en';
+   StudioTitleEn.textContent = studio['name-en'];
+
+   const StudioCoreJa = document.createElement("span");
+   StudioCoreJa.className = 'studio-core-ja';
+   StudioCoreJa.textContent = studio['core-ja'];
+
+   const StudioCoreEn = document.createElement("span");
+   StudioCoreEn.className = 'studio-core-en';
+   StudioCoreEn.textContent = studio['core-en'];
+
+
+
+   const ContentsItem3Div = document.createElement('div');
+   ContentsItem3Div.className ='contents_item3';
+
+   const StudioDesJa = document.createElement("span");
+   StudioDesJa.className = 'studio-description-ja';
+   StudioDesJa.textContent = studio['description-ja'];
 
    
 
-   studioDivTwo.appendChild(studioTitle);
-   studioDivTwo.appendChild(kindOfCore);
+   studioImage.appendChild(ContentsItem1Div);
 
-   studioDivThree.appendChild(studioDivTwo);
+   StudioTitleJa.appendChild(ContentsItem2Div);
+   StudioTitleEn.appendChild(ContentsItem2Div);
+   StudioCoreJa.appendChild(ContentsItem2Div);
+   StudioCoreEn.appendChild(ContentsItem2Div);
 
-   studioDiv.appendChild(studioImage);
-   studioDiv.appendChild(studioDivThree);
+   StudioDesJa.appendChild(ContentsItem3Div);
+
+   ContentsItem1Div.appendChild(ContentsDiv);
+   ContentsItem2Div.appendChild(ContentsDiv);
+   ContentsItem3Div.appendChild(ContentsDiv);
+
+   ContentsDiv.appendChild(studioDiv);
   
    document.getElementById('studios').appendChild(studioDiv);
 
