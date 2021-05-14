@@ -54,7 +54,7 @@ h4{
 
 
 .title{
-  padding-top: 10%;
+  padding-top: 20%;
   padding-bottom: 10%;
   padding-right: 5%;
   padding-left: 3%;
@@ -71,21 +71,27 @@ h4{
 }
 .title_item2 {
   align-self: auto;
+  font-size: 1.3em;
 }
 img.ia_image {
   width: 700px;
 	height: 700px;
 }
 
+.menu_title{
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 3.0em;
+}
 
 
 .contents{
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 3%;
+  padding-bottom: 8%;
   padding-right: 5%;
   padding-left: 5%;
   background-color: rgb(0, 0, 0);
-  height: 500px;
+  height: 300px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
@@ -120,6 +126,32 @@ img.ia_image {
 img.studio-image {
   width: 500px;
 	height: 300px;
+}
+
+.studio-title-ja{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5%;
+  font-size: 2.0em;
+  font-weight: 700;
+}
+.studio-title-en{
+  background-color: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.89);
+  margin-top: 0px;
+  padding-left: 5%;
+  
+  font-size: 1.5em;
+}
+
+.studio-core-ja{
+  font-size: 1.3em;
+}
+
+.studio-faculty-title-ja {
+  margin-left: 1em;
 }
 
 
