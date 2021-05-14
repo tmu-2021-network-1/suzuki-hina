@@ -40,7 +40,7 @@ h1, h2 {
   color: rgb(255, 255, 255);
 }
 
-.wrap{
+.title{
   padding: 5%;
   background-color: rgb(0, 0, 0);
   height: 300px;
@@ -49,7 +49,7 @@ h1, h2 {
   justify-content: center;
   align-items: center;
 }
-.item {
+.title_item {
   align-self: auto;
 }
 

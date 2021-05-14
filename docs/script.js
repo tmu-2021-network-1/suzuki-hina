@@ -10,14 +10,22 @@ const renderJson = (json) => {
   
   studios.forEach(studio => {
    const studioDiv = document.createElement('div');
+
    const studioTitle = document.createElement("span");
    studioTitle.className = 'studio-title';
    studioTitle.textContent = studio['name-ja'];
+
    const studioTitleEn = document.createElement("span");
    studioTitleEn.className = 'studio-title-en';
    studioTitleEn.textContent = studio['name-en'];
+
+   const studioPhotos = document.createElement("span");
+   studioPhotos.className = 'studio-photos';
+   studioPhotos.textContent = studio['photo1'];
+
    studioDiv.appendChild(studioTitle);
    studioDiv.appendChild(studioTitleEn);
+   studioDiv.appendChild(studioPhotos);
    document.getElementById('studios').appendChild(studioDiv);
  });
   document.getElementById('result').textContent = JSON.stringify(json, null, 2);
