@@ -49,9 +49,14 @@ h1, h2 {
   justify-content: center;
   align-items: center;
 }
-.title_item {
+.title_item1 {
   align-self: auto;
 }
+.title_item2 {
+  align-self: auto;
+}
+
+
 
 
 #studios > div {
