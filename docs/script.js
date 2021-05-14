@@ -54,22 +54,21 @@ const renderJson = (json) => {
    StudioDesJa.className = 'studio-description-ja';
    StudioDesJa.textContent = studio['description-ja'];
 
-   
 
-   studioImage.appendChild(ContentsItem1Div);
+   ContentsItem1Div.appendChild(studioImage);
 
-   StudioTitleJa.appendChild(ContentsItem2Div);
-   StudioTitleEn.appendChild(ContentsItem2Div);
-   StudioCoreJa.appendChild(ContentsItem2Div);
-   StudioCoreEn.appendChild(ContentsItem2Div);
+   ContentsItem2Div.appendChild(StudioTitleJa);
+   ContentsItem2Div.appendChild(StudioTitleEn);
+   ContentsItem2Div.appendChild(StudioCoreJa);
+   ContentsItem2Div.appendChild(StudioCoreEn);
 
-   StudioDesJa.appendChild(ContentsItem3Div);
+   ContentsItem3Div.appendChild(StudioDesJa);
 
-   ContentsItem1Div.appendChild(ContentsDiv);
-   ContentsItem2Div.appendChild(ContentsDiv);
-   ContentsItem3Div.appendChild(ContentsDiv);
+   ContentsDiv.appendChild(ContentsItem1Div);
+   ContentsDiv.appendChild(ContentsItem2Div);
+   ContentsDiv.appendChild(ContentsItem3Div);
 
-   ContentsDiv.appendChild(studioDiv);
+   studioDiv.appendChild(ContentsDiv);
   
    document.getElementById('studios').appendChild(studioDiv);
 
