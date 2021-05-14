@@ -42,8 +42,8 @@ h1, h2 {
 
 .wrap{
   padding: 5%;
-  background-color: rgb(255, 0, 255);
-  height: 400px;
+  background-color: rgb(0, 0, 0);
+  height: 300px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
