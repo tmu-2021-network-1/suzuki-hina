@@ -29,7 +29,7 @@ const renderJson = (json) => {
 
    const kindOfCore = document.createElement("span");
    kindOfCore.className = 'kind-of-core';
-   kindOfCore.textContent = `#${studio['core-ja']}`;
+   kindOfCore.textContent = studio['core-ja'];
 
    const detail = document.createElement("a");
    detail.className = 'read-more'
