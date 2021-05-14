@@ -31,16 +31,12 @@ const renderJson = (json) => {
    kindOfCore.className = 'kind-of-core';
    kindOfCore.textContent = studio['core-ja'];
 
-   const detail = document.createElement("a");
-   detail.className = 'read-more'
-   detail.textContent = 'more';
    
 
    studioDivTwo.appendChild(studioTitle);
    studioDivTwo.appendChild(kindOfCore);
 
    studioDivThree.appendChild(studioDivTwo);
-   studioDivThree.appendChild(detail);
 
    studioDiv.appendChild(studioImage);
    studioDiv.appendChild(studioDivThree);
