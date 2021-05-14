@@ -60,7 +60,7 @@ h1, h2 {
 .contents{
   padding: 5%;
   background-color: rgb(255, 0, 0);
-  height: 400px;
+  height: 600px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
