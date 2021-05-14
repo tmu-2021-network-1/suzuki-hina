@@ -46,11 +46,11 @@ h1, h2 {
   height: 400px;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 .item {
-  width: 200px;
-  height: 200px;
+  align-self: auto;
 }
 
 
