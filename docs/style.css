@@ -13,13 +13,11 @@ header {
   width: 100%;
   z-index: 10;
 }
-
 ul {
   margin: 30px auto;
   padding: 0 20px;
   text-align: center;
 }
-
 li {
   color: #FFF;
   font-family: 'Oswald', sans-serif;
@@ -29,20 +27,38 @@ li {
   display: inline-block;
   width: 100px;  
 }
-
 li:hover {
-  color: #DBE9EE;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 
-h1, h2 {
+h1{
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+h2 {
   font-weight: 400;
   color: rgb(255, 255, 255);
 }
 
+h3{
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+h4{
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+
+
 .title{
-  padding: 5%;
-  background-color: rgb(211, 214, 12);
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 5%;
+  padding-left: 3%;
+  background-color: rgb(0, 0, 0);
   height: 400px;
   display: flex;
   flex-wrap: nowrap;
@@ -51,38 +67,63 @@ h1, h2 {
 }
 .title_item1 {
   align-self: auto;
-  flex-basis: 600px;
+  flex-basis: 500px;
 }
 .title_item2 {
   align-self: auto;
 }
+img.ia_image {
+  width: 700px;
+	height: 700px;
+}
+
 
 
 .contents{
-  padding: 5%;
-  background-color: rgb(255, 0, 0);
-  height: 600px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 5%;
+  padding-left: 5%;
+  background-color: rgb(0, 0, 0);
+  height: 500px;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .contents_item1 {
-  background-color: rgb(255, 230, 0);
+  background-color: rgb(0, 0, 0);
   align-self: auto;
-  flex-basis: 400px;
-  font-size: 1.5em;
+  flex-basis: 30%;
+  padding-right: 1%;
+  padding-left: 1%;
 }
 
 .contents_item2 {
-  background-color: rgb(0, 255, 55);
+  background-color: rgb(0, 0, 0);
   align-self: auto;
-  font-size: 0.5em;
+  flex-basis: 30%;
+  padding-right: 1%;
+  padding-left: 1%;
 }
 
 .contents_item3 {
-  background-color: rgb(4, 0, 255);
+  background-color: rgb(0, 0, 0);
   align-self: auto;
-  font-size: 0.3em;
+  flex-basis: 30%;
+  font-size: 0.9em;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+img.studio-image {
+  width: 500px;
+	height: 300px;
+}
+
+
+footer{
+  text-align: center;
+  font-size: 0.5em;
 }

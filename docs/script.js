@@ -29,19 +29,19 @@ const renderJson = (json) => {
    const ContentsItem2Div = document.createElement('div');
    ContentsItem2Div.className ='contents_item2';
 
-   const StudioTitleJa = document.createElement("span");
+   const StudioTitleJa = document.createElement("h2");
    StudioTitleJa.className = 'studio-title-ja';
    StudioTitleJa.textContent = studio['name-ja'];
 
-   const StudioTitleEn = document.createElement("span");
+   const StudioTitleEn = document.createElement("h3");
    StudioTitleEn.className = 'studio-title-en';
    StudioTitleEn.textContent = studio['name-en'];
 
-   const StudioCoreJa = document.createElement("span");
+   const StudioCoreJa = document.createElement("h4");
    StudioCoreJa.className = 'studio-core-ja';
    StudioCoreJa.textContent = studio['core-ja'];
 
-   const StudioCoreEn = document.createElement("span");
+   const StudioCoreEn = document.createElement("h4");
    StudioCoreEn.className = 'studio-core-en';
    StudioCoreEn.textContent = studio['core-en'];
 
@@ -50,7 +50,7 @@ const renderJson = (json) => {
    const ContentsItem3Div = document.createElement('div');
    ContentsItem3Div.className ='contents_item3';
 
-   const StudioDesJa = document.createElement("span");
+   const StudioDesJa = document.createElement("p");
    StudioDesJa.className = 'studio-description-ja';
    StudioDesJa.textContent = studio['description-ja'];
 
