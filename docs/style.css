@@ -41,7 +41,7 @@ h1, h2 {
 }
 
 .wrap{
-  padding: 10%;
+  padding: 5%;
   background-color: rgb(255, 0, 255);
   height: 400px;
   display: flex;
