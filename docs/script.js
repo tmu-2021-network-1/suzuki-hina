@@ -2,7 +2,7 @@
 d3.selectAll('.grid-container > div').selectAll('p')
 const real = document.querySelector('.real');
 const dream = document.querySelector('.dream');
-const title = document.querySelector('.title');
+// const title = document.querySelector('.title');
 
 // onscroll function
 // real.onscroll = function() {
@@ -184,11 +184,11 @@ text1.innerHTML =
 real.appendChild(text1);
 
 //title
-const titleScript = document.createElement("p");
-titleScript.className = 'titlescript';
-titleScript.textContent = "私は5分しか寝てない気がするのに。";
+// const titleScript = document.createElement("p");
+// titleScript.className = 'titlescript';
+// titleScript.textContent = "私は5分しか寝てない気がするのに。";
 
-title.appendChild(titleScript);
+// title.appendChild(titleScript);
 
 //dream
 const text2 = document.createElement('text2');

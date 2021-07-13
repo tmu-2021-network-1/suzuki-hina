@@ -4,6 +4,11 @@ html, body {
   background-color: rgb(134, 191, 234);
 }
 
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
 .grid-container {
   width: 100%;
   display: grid;
@@ -120,7 +125,30 @@ html, body {
   text-align: center;
 }
 
-.name a{
+
+
+/* about me */
+.me {
+  grid-column-start: 7;
+  grid-column-end: 15;
+  grid-row-start: 8;
+  grid-row-end: 16;
+}
+
+.belong {
+  grid-column-start: 17;
+  grid-column-end: 29;
+  grid-row-start: 8;
+  grid-row-end: 22;
   color: rgb(255, 255, 255);
-  text-decoration: none;
+}
+
+.return {
+  grid-column-start: 14;
+  grid-column-end: 18;
+  grid-row-start: 25;
+  grid-row-end: 26;
+  text-align: center;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
 }
