@@ -12,6 +12,11 @@ dream.onscroll = function() {
   real.scrollTop = dream.scrollTop * real.scrollHeight / dream.scrollHeight * 2;
 }
 
+
+
+
+
+//文章
 //real
 const text1 = document.createElement('text1');
 text1.innerHTML = 
